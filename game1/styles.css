@@ -1,0 +1,37 @@
+canvas{
+  position: absolute; /* these 3 lines of code allows both canvas to be in same canvas together without it they will be seperated */
+  align-content: center;
+  top: 0px;
+  left:0px;
+  background: transparent;
+}
+
+#backgroundCanvas{
+  background-color: black;
+}
+
+#questionCanvas{
+  position: absolute; /* these 3 lines of code allows both canvas to be in same canvas together without it they will be seperated */
+  top: -1px;
+  left:542px;
+  background-color: black;
+}
+
+
+#reset{
+  position: absolute;
+  top: 500px;
+  left: 600px;
+  
+}
+
+
+#resEn{
+  position: absolute;
+  top: 500px;
+  left:750px;
+}
+
+.game{
+    margin-left:500px;
+}

@@ -1,0 +1,19 @@
+#mainCanvas{
+    background-color: orange;
+}
+#questionCanvas{
+  position: absolute; /* these 3 lines of code allows both canvas to be in same canvas together without it they will be seperated */
+  top: inherit;
+  left:500px;
+  background-color: black;
+}
+#reset{
+  position: absolute;
+  top: 415px;
+  left: 550px;
+}
+#resEn{
+  position: absolute;
+  top: 415px;
+  left:700px;
+}

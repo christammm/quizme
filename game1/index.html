@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>GeneralGame</title>
+  <link rel = "stylesheet" type = "text/css" href ="styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src = "script.js"></script>
+</head>
+<body>
+
+
+  <!-- multiple canvas's to limit (multiple) rendering  -->
+
+  <canvas id = "backgroundCanvas" width = "550" height = "600"></canvas>
+  <!--
+  <script>
+  var c=document.getElementById("backgroundCanvas");
+  var ctx=c.getContext("2d");
+  ctx.font="25px Arial";
+  ctx.fillText("What is 1+1?",50,150);
+
+  </script>
+-->
+  <canvas id = "playerCanvas" width = "550" height = "600"></canvas>
+  <canvas id = "enemiesCanvas" width = "550" height = "600"></canvas>
+  <canvas id = "questionCanvas" width = "550" height = "600">
+  </canvas>
+  <canvas id = "questionBackCanvas" width = "550" height = "601">
+  </canvas>
+
+  <button id="reset"> Reset Question</button>
+  <button id="clear"> Clear Question</button>
+  <button id="nextt"> Nextt Question</button>
+  <button id="resEn"> Reset Game</button>
+
+  <!-- <input id = "resButt" type="button" style="z-index:2; position: absolute; top: 500; left: 600" value= "Reset Game"/> -->
+
+</body>
+</html>

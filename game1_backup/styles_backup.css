@@ -1,0 +1,39 @@
+canvas{
+  position: absolute; /* these 3 lines of code allows both canvas to be in same canvas together without it they will be seperated */
+  top: 50px;
+  left:300px;
+  background: transparent;
+}
+
+#backgroundCanvas{
+  background-color: black;
+}
+
+#questionCanvas{
+  position: absolute; /* these 3 lines of code allows both canvas to be in same canvas together without it they will be seperated */
+  top: 50px;
+  left:742px;
+  background-color: black;
+}
+
+
+#reset{
+  position: absolute;
+  top: 550px;
+  left:1000px;
+}
+#clear{
+  position: absolute;
+  top: 550px;
+  left:890px;
+}
+#nextt{
+  position: absolute;
+  top: 600px;
+  left:890px;
+}
+#resEn{
+  position: absolute;
+  top: 600px;
+  left:1000px;
+}
